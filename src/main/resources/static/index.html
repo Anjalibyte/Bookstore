@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>BookNest - Online Bookstore</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header class="top-header">
+
+    <div class="logo">
+        📚 BookNest
+    </div>
+
+    <div class="search-box">
+        <input
+                type="text"
+                id="searchInput"
+                placeholder="Search for books, authors..."
+        >
+        <button type="button">🔍</button>
+    </div>
+
+    <div class="header-actions">
+        <a href="login.html">👤 Login</a>
+        <a href="signup.html">Signup</a>
+        <a href="cart.html">🛒 Cart</a>
+    </div>
+
+</header>
+
+
+<!-- CATEGORY BAR -->
+<nav class="category-bar">
+
+    <a href="index.html">Home</a>
+    <a href="#">Fiction</a>
+    <a href="#">Programming</a>
+    <a href="#">Science</a>
+    <a href="#">Business</a>
+    <a href="#">Self Help</a>
+
+</nav>
+
+
+<!-- HERO SECTION -->
+<section class="hero-banner">
+
+    <div class="hero-content">
+
+        <p class="hero-small-text">
+            DISCOVER • READ • GROW
+        </p>
+
+        <h1>
+            Find Your Next<br>
+            Favorite Book
+        </h1>
+
+        <p>
+            Explore books from different categories
+            and bring your next great story home.
+        </p>
+
+        <a href="#books" class="shop-button">
+            Shop Books
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- FEATURES -->
+<section class="features">
+
+    <div class="feature">
+        <span>🚚</span>
+        <div>
+            <h3>Fast Delivery</h3>
+            <p>Get your books delivered to your doorstep.</p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <span>💳</span>
+        <div>
+            <h3>Secure Payment</h3>
+            <p>UPI and Cash on Delivery available.</p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <span>⭐</span>
+        <div>
+            <h3>Customer Reviews</h3>
+            <p>Read reviews before buying your book.</p>
+        </div>
+    </div>
+
+    <div class="feature">
+        <span>📧</span>
+        <div>
+            <h3>Order Updates</h3>
+            <p>Receive order notifications by email.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- BOOK SECTION -->
+<section class="books-section" id="books">
+
+    <div class="section-heading">
+
+        <div>
+            <p class="section-label">OUR COLLECTION</p>
+            <h2>Popular Books</h2>
+        </div>
+
+        <p class="section-description">
+            Find something interesting to read today.
+        </p>
+
+    </div>
+
+    <!-- JavaScript loads books here -->
+    <div id="bookList"></div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+
+    <div class="footer-content">
+
+        <div>
+            <h2>📚 BookNest</h2>
+            <p>
+                Your simple and convenient online bookstore.
+            </p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </div>
+
+        <div>
+            <h3>Customer Service</h3>
+            <p>📧 Email Support</p>
+            <p>🚚 Delivery Information</p>
+            <p>↩️ Returns & Refunds</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2026 BookNest. All rights reserved.
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
